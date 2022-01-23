@@ -14,38 +14,48 @@
 </head>
 <body>
     <!-- Navigation bar -->
-    <header>
+    <header class="d-none">
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container">
-              <a class="navbar-brand fw-bold" href="#">
-                  Skynet Convention Center
-                </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav ms-auto">
-                  <a class="nav-link text-dark " href="#">Home</a>
-                  <a class="nav-link text-dark ps-4" href="#">About Us</a>
-                  <a class="nav-link text-dark ps-4" href="#">Contact</a>
-                  <a class="nav-link text-dark ps-4" href="#">Subscribe</a>
-                  
+                <a class="navbar-brand fw-bold" href="#">
+                        Skynet Convention Center   
+                    </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto bg-white bg-lg-transparent">
+                        <a class="nav-link text-dark ps-4" href="#">Home</a>
+                        <a class="nav-link text-dark ps-4" href="#">About Us</a>
+                        <a class="nav-link text-dark ps-4" href="#">Contact</a>
+                        <a class="nav-link text-dark ps-4" href="#">Subscribe</a>
+                    
+                    </div>
                 </div>
-              </div>
             </div>
           </nav>
     </header>
     <!-- Carousel SLider -->
-    <section id="carousel-slider">
+    <section id="carousel-slider" class="d-none">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <div class="carousel-indicators mw-100">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
             </div>
             <div class="carousel-inner">
-              <div class="carousel-item active w-100">
-                <!-- <img src="images/banner.png" class="d-block w-100" alt="..."> -->
+              <div class="carousel-item active mw-100">
+                    <div class="carousel-caption d-flex flex-column align-items-lg-center align-items-start">
+                        <h5 class="display-3">The perfect venue  for your <br>
+                            next event</h5>
+                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit </p>
+                        <div class="w-100 d-flex justify-content-center">
+                            <button class="btn btn-primary mb-3 px-5 py-3">Book Now</button>
+                        </div>                   
+                  </div>
+              </div>
+              <div class="carousel-item w-100">
                 <div class="carousel-caption d-flex flex-column align-items-lg-center align-items-start">
                     <h5 class="display-3">The perfect venue  for your <br>
                         next event</h5>
@@ -56,7 +66,6 @@
                   </div>
               </div>
               <div class="carousel-item w-100">
-                <!-- <img src="images/banner.png" class="d-block w-100" alt="..."> -->
                 <div class="carousel-caption d-flex flex-column align-items-lg-center align-items-start">
                     <h5 class="display-3">The perfect venue  for your <br>
                         next event</h5>
@@ -67,7 +76,6 @@
                   </div>
               </div>
               <div class="carousel-item w-100">
-                <!-- <img src="images/banner.png" class="d-block w-100" alt="..."> -->
                 <div class="carousel-caption d-flex flex-column align-items-lg-center align-items-start">
                     <h5 class="display-3">The perfect venue  for your <br>
                         next event</h5>
@@ -76,8 +84,7 @@
                         <button class="btn btn-primary mb-3 px-5 py-3">Book Now</button>
                     </div>                   
                   </div>
-              </div>
-              
+              </div>              
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -89,11 +96,46 @@
             </button>
           </div>
     </section>
+    <!-- Precious Moment -->
+    <section class="my-5">
+        <div class="container">
+            <div class="row d-flex justify-content-start align-items-center">
+                <div class="col-lg-6 col-12 order-last order-lg-first">
+                    <div class="d-flex flex-column align-items-start">
+                        <img src="images/wedding.png" alt="Wedding pic" class="img-fluid">
+                        <a href="" class="btn btn-primary d-inline-block d-lg-none mt-3">
+                            Explore our album 
+                            <img src="icons/arrow-forward 1.svg" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12">
+                    <div>
+                        <h2 class="fw-bold mb-3">Every moment is Precious </h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, voluptatem quasi! Quam dolore animi iste autem, dolorem voluptate a ducimus facilis, deserunt nam porro sint beatae blanditiis? Nemo, quidem voluptatem!</p>
+                        <a href="" class="btn btn-primary d-none d-lg-inline-block">
+                            Explore our album 
+                            <img src="icons/arrow-forward 1.svg" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="toast align-items-center text-white bg-primary border-0" role="alert" aria-live="assertive" aria-atomic="true">
+                        <div class="d-flex">
+                          <div class="toast-body">
+                            Hello, world! This is a toast message.
+                          </div>
+                          <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+                        </div>
+                    </div>                  
+                </div>
+                
+            </div>
+        </div>
+    </section>
     <!-- Our Package -->
     <section id="our-package">
         <div class="container">
             <h2 class="text-center mt-4 py-5 fw-bold">Our Package</h2>
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 gy-3 pt-5 d-flex align-items-end">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 gy-3 pt-5 px-3 d-flex align-items-end">
                 <div class="col">
                     <div class="p-2">
                         <h4 class="fw-bold mb-3">$300</h4>
@@ -155,6 +197,9 @@
                     </div>
                 </div>
                 <div class="col shadow-lg highlight p-5 bg-info text-white">
+                    <span class="badge rounded-pill bg-danger">
+                        Hot
+                    </span>
                     <div>
                         <h4 class="fw-bold mb-3">$300</h4>
                         <h5 class="fw-bold">Business fair</h5>
@@ -213,6 +258,58 @@
                         </div>
                         <a class="btn rounded-pill mt-3 w-100 text-primary fw-bold plan-btn">Choose plan</a>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Client Says -->
+    <section class="my-5">
+        <div class="container">
+            <h2 class="text-center mb-5 py-5 fw-bold">Happy Clients says</h2>
+            <div class="row gy-3">
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="d-flex flex-column align-items-center text-center shadow-lg py-4 px-5 rounded-3">
+                        <p>
+                            Slate helps you see how many more days you need to work to reach your financial goal for the month and year.
+                        </p>
+                        <img src="images/person 1.png" alt="person" class="img-fluid mb-3" width="100px">
+                        <h6 class="fw-bold">Regina Miles</h6>
+                        <span>Banker</span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="d-flex flex-column align-items-center text-center shadow-lg py-4 px-5 rounded-3">
+                        <p>
+                            Slate helps you see how many more days you need to work to reach your financial goal for the month and year.
+                        </p>
+                        <img src="images/person 2.png" alt="person" class="img-fluid mb-3" width="100px">
+                        <h6 class="fw-bold">Jone Drake</h6>
+                        <span>Banker</span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="d-flex flex-column align-items-center text-center shadow-lg py-4 px-5 rounded-3">
+                        <p>
+                            Slate helps you see how many more days you need to work to reach your financial goal for the month and year.
+                        </p>
+                        <img src="images/person 3.png" alt="person" class="img-fluid mb-3" width="100px">
+                        <h6 class="fw-bold">Cret Yater</h6>
+                        <span>Banker</span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!-- Celebrate with us -->
+    <section id="celebrate" class="mt-5">
+        <div class="container h-100">
+            <div class="row h-100">
+                <div class="text-white d-flex flex-column justify-content-center align-items-center text-center">
+                    <h2 class="mb-5 fw-bold bg-warning px-5 py-4 rounded-3">Celebrate with Skynet</h2>
+                    <h1>Plan your Birthday Celebration with us!</h1>
+                    <p>We will distribute FREE GIFTS to every single kid - That’s Our Promise!</p>
                 </div>
             </div>
         </div>
@@ -289,12 +386,13 @@
         </div>
         
     </section>
+    
     <!-- Footer  -->
     <footer class="bg-dark">
         <div class="container">
             <div class="row text-white py-5">
                 <div class="d-flex flex-column justify-content-center align-items-center flex-md-row justify-content-md-between align-items-md-center">
-                    <div class="order-last order-md-first mt-5 mt-md-0">
+                    <div class="align-self-center order-last order-md-first mt-5 mt-md-0">
                         <small class="text-center d-block">&copy; 2022 Skynet convention center. All rights reserved</small>
                     </div>
                     <div class="d-flex flex-column">
