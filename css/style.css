@@ -20,5 +20,11 @@ nav{
 .accordion-button:not(.collapsed) {
     box-shadow: none;
 }
+.plan-btn{
+    background-color: #f7e9f1cc;
+}
+.highlight{
+    border-radius: 26px;
+}
 
     
