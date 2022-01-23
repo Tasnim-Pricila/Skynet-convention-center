@@ -35,10 +35,8 @@ nav{
    background-color: rgba(0, 0, 0, 0.815);
    background-blend-mode: overlay;
 }
-.badge{
-    position: relative;
-    top: -58px;
-    right: -220px;
+.hot{
+    left: 85%;  
 }
 
     

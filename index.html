@@ -14,12 +14,15 @@
 </head>
 <body>
     <!-- Navigation bar -->
-    <header class="d-none">
+    <header class="">
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container">
-                <a class="navbar-brand fw-bold" href="#">
+                <div class="overflow-hidden">
+                    <a class="navbar-brand fw-bold" href="#" style="width: 250px;">
                         Skynet Convention Center   
                     </a>
+                </div>
+                
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -36,7 +39,7 @@
           </nav>
     </header>
     <!-- Carousel SLider -->
-    <section id="carousel-slider" class="d-none">
+    <section id="carousel-slider" class="">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators mw-100">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -101,7 +104,7 @@
         <div class="container">
             <div class="row d-flex justify-content-start align-items-center">
                 <div class="col-lg-6 col-12 order-last order-lg-first">
-                    <div class="d-flex flex-column align-items-start">
+                    <div class="d-flex flex-column align-items-center">
                         <img src="images/wedding.png" alt="Wedding pic" class="img-fluid">
                         <a href="" class="btn btn-primary d-inline-block d-lg-none mt-3">
                             Explore our album 
@@ -118,21 +121,14 @@
                             <img src="icons/arrow-forward 1.svg" alt="" class="img-fluid">
                         </a>
                     </div>
-                    <div class="toast align-items-center text-white bg-primary border-0" role="alert" aria-live="assertive" aria-atomic="true">
-                        <div class="d-flex">
-                          <div class="toast-body">
-                            Hello, world! This is a toast message.
-                          </div>
-                          <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
-                        </div>
-                    </div>                  
+                                
                 </div>
                 
             </div>
         </div>
     </section>
     <!-- Our Package -->
-    <section id="our-package">
+    <section id="our-package" class="">
         <div class="container">
             <h2 class="text-center mt-4 py-5 fw-bold">Our Package</h2>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 gy-3 pt-5 px-3 d-flex align-items-end">
@@ -196,10 +192,12 @@
                         <a class="btn rounded-pill mt-3 w-100 text-primary fw-bold plan-btn">Choose plan</a>
                     </div>
                 </div>
-                <div class="col shadow-lg highlight p-5 bg-info text-white">
-                    <span class="badge rounded-pill bg-danger">
-                        Hot
-                    </span>
+                <div class="col shadow-lg highlight p-5 bg-info text-white position-relative">
+                    <div>
+                        <span class="badge rounded-pill bg-danger hot border position-absolute top-0 translate-middle">
+                            Hot
+                        </span>
+                    </div>
                     <div>
                         <h4 class="fw-bold mb-3">$300</h4>
                         <h5 class="fw-bold">Business fair</h5>
@@ -305,11 +303,11 @@
     <!-- Celebrate with us -->
     <section id="celebrate" class="mt-5">
         <div class="container h-100">
-            <div class="row h-100">
-                <div class="text-white d-flex flex-column justify-content-center align-items-center text-center">
+            <div class="row h-100 mw-100">
+                <div class="text-white d-flex flex-column justify-content-center align-items-center text-center ps-4">
                     <h2 class="mb-5 fw-bold bg-warning px-5 py-4 rounded-3">Celebrate with Skynet</h2>
                     <h1>Plan your Birthday Celebration with us!</h1>
-                    <p>We will distribute FREE GIFTS to every single kid - That’s Our Promise!</p>
+                    <p>We will distribute FREE GIFTS to every single kid - That's Our Promise!</p>
                 </div>
             </div>
         </div>
@@ -388,7 +386,7 @@
     </section>
     
     <!-- Footer  -->
-    <footer class="bg-dark">
+    <footer class="bg-dark" >
         <div class="container">
             <div class="row text-white py-5">
                 <div class="d-flex flex-column justify-content-center align-items-center flex-md-row justify-content-md-between align-items-md-center">
