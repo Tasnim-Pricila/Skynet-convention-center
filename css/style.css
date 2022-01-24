@@ -9,6 +9,7 @@ nav{
     height: 80px;
     z-index: 1;
 }
+/* Carousel  */
 .carousel-inner img{
    height: calc(100vh - 80px);  
    object-fit: cover;
@@ -29,18 +30,31 @@ nav{
 .carousel-caption{
     z-index: 1;
 }
+/* Accordion  */
 .accordion-button:focus {  
     box-shadow: 0 0 0;
 }
 .accordion-button:not(.collapsed) {
     box-shadow: none;
 }
+
+
+/* Package */
+
 .plan-btn{
     background-color: #f7e9f1cc;
 }
 .highlight{
     border-radius: 26px;
+    background-image: linear-gradient(#E1A2B8, #9F2BC1);
 }
+.highlight-btn{
+    background-color: orange;
+}
+.hot{
+    left: 85%;  
+}
+/* Celebrate with us  */
 #celebrate{
    height: 70vh;
    background-image: url('../images/background.png');
@@ -50,11 +64,17 @@ nav{
    background-color: rgba(0, 0, 0, 0.815);
    background-blend-mode: overlay;
 }
-.hot{
-    left: 85%;  
-}
+
+/* Toast  */
 .toast-shadow{
     box-shadow: 30px 20px 25px rgb(204 198 179);
+}
+
+@media only screen and (min-width:992px){
+    .carousel-caption p{
+        padding-left: 20%;
+        padding-right: 20%;
+    }
 }
 
     
