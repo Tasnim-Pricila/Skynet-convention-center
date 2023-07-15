@@ -30,6 +30,7 @@ nav{
 .carousel-caption{
     z-index: 1;
 }
+
 /* Accordion  */
 .accordion-button:focus {  
     box-shadow: 0 0 0;
@@ -37,7 +38,6 @@ nav{
 .accordion-button:not(.collapsed) {
     box-shadow: none;
 }
-
 
 /* Package */
 
